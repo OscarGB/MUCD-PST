@@ -18,14 +18,14 @@ ny1=nx+2;
 ny2=nx-1;
 fx=fliplr(x);
 ny3=-fliplr(nx);
-ny4=-fliplr(nx)-1;
-ny5=-fliplr(nx+1);
+ny4=-fliplr(nx)+1;
+ny5=-fliplr(nx-1);
 
 figure;
 stem(ny1,x);
 title("x retrasada 2");
-xlabel("ny1)");
-xlim([-10 10]);
+xlabel("ny)");
+xlim([-10 0]);
 figure;
 stem(ny2,x);
 title("x adelantada 1");
