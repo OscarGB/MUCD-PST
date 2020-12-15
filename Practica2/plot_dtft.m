@@ -10,7 +10,8 @@ title("Magnitude Response");
 xlabel("Normalized Frequency");
 ylabel("|H(w)|");
 subplot(2,1,2)
-plot(W, angle(H));
+% En grados
+plot(W, angle(H) * 360 / (2*pi));
 title("Phase Response");
 xlabel("Normalized Frequency");
 ylabel("Degrees");
